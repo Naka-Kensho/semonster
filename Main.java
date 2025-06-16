@@ -1,5 +1,9 @@
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello SEMonster");
+    Player player = new Player();
+    player.drawMonsters();
+    System.out.println("start Game");
+    System.out.println("draw monster");
+    player.showDeck();
   }
 }
